@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> 
+    <link rel="icon" href="./images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>TEAM AVITAR</title>
+    <link rel="stylesheet" href="preloader.css">
+</head>
+<body class="no_scroll_bar_visible">
+    <div id="loader_fixed_container">
+        <div class="loader_container">
+           
+            <div class="web_logo">
+              <div class="border_loader"></div>
+              <img id="website_logo" src="./images/logo.png" width="300px" height="300px" alt="" style=" position: absolute;
+              opacity: .2;
+              border-radius: 50%;
+              box-shadow: 0px 0px 16px rgba(255, 255, 255, .3);
+              backdrop-filter: blur(16px);
+              z-index: 9999 !important;" >
+    
+            </div>
+            <div class="area">
+                <ul class="circles">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            <div class="loader_content">
+                <div id="hourglass_svg_loader">
+                    <svg
+                      id="Hourglass_svg"
+                      width="93px"
+                      height="98px"
+                      viewBox="0 0 73 88"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <g id="hourglass">
+                          <!-- fill="#ECF1F6" -->
+                        <path
+                          d="M63.8761664,86 C63.9491436,84.74063 64,83.4707791 64,82.1818182 C64,65.2090455 57.5148507,50.6237818 48.20041,44 C57.5148507,37.3762182 64,22.7909545 64,5.81818182 C64,4.52922091 63.9491436,3.25937 63.8761664,2 L10.1238336,2 C10.0508564,3.25937 10,4.52922091 10,5.81818182 C10,22.7909545 16.4851493,37.3762182 25.79959,44 C16.4851493,50.6237818 10,65.2090455 10,82.1818182 C10,83.4707791 10.0508564,84.74063 10.1238336,86 L63.8761664,86 Z"
+                          id="glass"
+                          fill="white"
+                        ></path>
+                        <rect
+                          id="top-plate"
+                          fill="#4D4544"
+                          x="0"
+                          y="0"
+                          width="74"
+                          height="8"
+                          rx="2"
+                        ></rect>
+                        <rect
+                          id="bottom-plate"
+                          fill="#4D4544"
+                          x="0"
+                          y="80"
+                          width="74"
+                          height="8"
+                          rx="2"
+                        ></rect>
+            
+                        <g id="top-sand" transform="translate(18, 21)">
+                          <clipPath id="top-clip-path" fill="white">
+                            <rect x="0" y="0" width="38" height="21"></rect>
+                          </clipPath>
+            
+                          <path
+                            fill="#dc3545"
+                            clip-path="url(#top-clip-path)"
+                            d="M38,0 C36.218769,7.51704545 24.818769,21 19,21 C13.418769,21 1.9,7.63636364 0,0 L38,0 Z"
+                          ></path>
+                        </g>
+            
+                        <g id="bottom-sand" transform="translate(18, 55)">
+                          <clipPath id="bottom-clip-path" fill="white">
+                            <rect x="0" y="0" width="38" height="21"></rect>
+                          </clipPath>
+            
+                          <g clip-path="url(#bottom-clip-path)">
+                            <path
+                              fill="#dc3545"
+                              d="M0,21 L38,21 C36.1,13.3636364 24.581231,0 19,0 C13.181231,0 1.781231,13.4829545 0,21 Z"
+                            ></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="loading_process">
+                    Loading<span class="dots"
+                      ><span class="dot1">.</span><span class="dot2">.</span
+                      ><span class="dot3">.</span></span
+                    >
+                  </div>
+            </div>
+    
+        </div>
+    </div>
+    <nav class="nav navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+        <a class="header" href="index.html">
+            <img id="logo" src="./images/logo.png">
+            <div class="logo_header">
+            <span style="color: #2f5c8f;"> </span>
+            <span style="color: #ffffff; font-size: 22px;">TEAM AVITAR MOTORSPORTS </span>
+          
+            
+            <span style="color: #2f5c8f;"></span>
+            </div>
+        </a> 
+        <wbr>
+        <wbr>
+       <param  style="color: white; font-size: 20PX; " ></Param> 
+
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbars navbar-nav ml-auto" >
+            <li><a href="index.html" class="active hover-line nav navbars">HOME</a></li><!-- NAVBAR HIGHLIGHT FOR CURRENT PAGE -->
+            <li><a href="team.html" class="hover-line nav navbars">TEAM</a></li>
+            <li><a href="achievements.html"  class="hover-line nav navbars">ACHIEVEMENTS</a></li>  
+            <li><a href="department.html"  class="hover-line nav navbars">DEPARTMENTS      </a></li> 
+            <li><a href="gallary.html"  class="hover-line nav navbars">GALLERY    </a></li>  
+
+            <li><a href="contact.html"  class="hover-line nav navbars">CONTACT US</a></li>
+        </div>
+      </nav>
+    <div id="home_welcome" data-aos="zoom-out">
+        <div id="banner_data"  >
+            
+        </div>
+    </div>
+    <div class="context">
+       
+  </div>
+
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+    <div id="home_about" style="transform: translateY(10%);">
+        <div class="content" data-aos="fade-right">
+            <h1 style="color: white;"><strong>ABOUT US</strong></h1><br>
+            <h3  style="font-size: 25px;">Team Avitar was founded in 2017 by a group of aspiring auto-enthusiasts from VIT university. The Team has been competing at the BAJA SAE India Events since 2018. We participate in various events that task Indian engineering students to design and build an All-Terrain Vehicle (ATV) that will participate in the multiple episodes designed and supervised by SAE India. The purpose is to help the undergraduates enlarge their spectrum in technical and practical approaches, trigger the prefrontal cortex and increase problem-solving and planning skills, and enhance their managing capability, along with core technical knowledge. We are all passionate and enthusiastic about having a very exciting season ahead.
+            </h3>
+        </div>
+        <div class="img-box">
+            <img class="home_illus" src="./images/2.png">
+        </div>
+      </div>  <hr >
+
+     
+
+    <div>
+    <div id="home_rait">
+      
+        <div class="img-box1">
+            <img class="home_illus1" src="./images/3.jpg">
+        </div>
+        <div class="content" data-aos="fade-left">
+            <h1><b>ABOUT VIT</b></h1><br>
+            <h3 style="font-size: 25px;">VIT Bhopal university is one of the best private universities located in Bhopal, Madhya Pradesh. It was founded in 2017 as one of the four campuses of the Vellore Institute of Technology by the Vellore group of institutions.VIT Bhopal University, envisioned with a new global outlook will empower its aspirants to attain excellence through learning. The comprehensive teaching methodology designed by the University, redeﬁnes the approach to learning, educating and building knowledge-based societies in the country. Collaboration with reputed national and international organisations and strategic partnerships with universities around the world are being established, to prepare a globally competent generation of professionals..
+            </h3>
+        </div>
+    </div>
+  
+    <style media="screen">
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Exo;
+      }
+      @font-face {
+        font-family: Exo;
+        src: url(./fonts/Exo2.0-Medium.otf);
+      }
+      .main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(6,6,62);
+        color: white;
+  background: radial-gradient(circle, rgba(6,6,62,1) 0%, rgba(6,6,62,1) 16%, rgba(6,6,62,1) 100%);
+  text-decoration-color: white;
+      }
+      .FACULTYTEXT{
+        color: white;
+        justify-content: center;
+        align-items: center;
+      }
+      .profile-card{  
+        position: relative;
+        font-family: sans-serif;
+       
+        width: 350px;
+        height: 350px;
+        background: #fff;
+        padding: 15px;
+        border-radius: 50%;
+        box-shadow: 0 0 22px #3336;
+        transition: .6s;
+        margin: 0 25px;
+      }
+      .profile-card:hover{
+        border-radius: 10px;
+        height: 400px;
+      }
+      .profile-card .img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: .6s;
+        z-index: 99;
+      }
+      .profile-card:hover .img{
+        transform: translateY(-60px);
+      }
+      .img img{
+        width: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0 22px #3336;
+        transition: .6s;
+      }
+      .profile-card:hover img{
+        border-radius: 10px;
+      }
+      .caption{
+        text-align: center;
+        transform: translateY(-80px);
+        opacity: 0;
+        transition: .6s;
+      }
+      .profile-card:hover .caption{
+        opacity: 1;
+      }
+      .caption h3{
+        font-size: 19px;
+        font-family: sans-serif;
+      }
+      .caption p{
+        font-size: 15px;
+        color: #0c52a1;
+        font-family: sans-serif;
+        margin: 2px 0 9px 0;
+      }
+      .caption .social-links a{
+        color: #333;
+        margin-right: 15px;
+        font-size: 21px;
+        transition: .6s;
+      }
+      .social-links a:hover{
+        color: #0c52a1;
+      }
+   
+     </style>
+
+    <DIV class="FACULTYTEXT">
+     <center><h1>FACULTY CO-ORDINATORS</h1></center> 
+    </DIV>
+<div class="main">
+
+ 
+ 
+  <div class="profile-card">
+      <div class="img">
+          <img src="./images/Ankush.jpeg">
+      </div>
+      <div class="caption">
+          <h3>Dr.Ankush D Tharkar</h3>
+          <p>Assistant Professor</p>
+          <div class="social-links">
+            <a href="mailto:ankush.tharkar@vitbhopal.ac.in"><i class="fa fa-envelope fa"></i></a>
+          </div>
+      </div>
+  </div>
+  <div class="profile-card">
+      <div class="img">
+          <img src="./images/Prashant GK.jpeg">
+      </div>
+      <div class="caption">
+          <h3>Dr. Prashant G K</h3>
+          <p>Assistant Professor & Program chair Aerospace</p>
+      
+          <div class="social-links">
+            <a href="mailto:prashant.gk@vitbhopal.ac.in"><i class="fa fa-envelope fa"></i></a>
+          </div>
+      </div>
+  </div>
+  <div class="profile-card" >
+      <div class="img">
+          <img src="./images/Rohit.jpeg">
+      </div>
+      <div class="caption">
+          <h3>Dr.Rohit Sharma</h3>
+          <p>Assistant Professor & Program chair Mechanical </p>
+          <div class="social-links">
+            <a href="mailto:rohit.sharma@vitbhopal.ac.in"><i class="fa fa-envelope fa"></i></a>
+             
+          </div>
+      </div>
+  </div>
+</div>
+
+   
+    <div id="home_vision">
+        <h1><strong>VISION</strong></h1><br>
+        <div data-aos="fade-up">
+        <h2 style="color: white;"><strong><i> Our vision is to craft the perfect ATV ever existed, powering passion  and pioneering new possibilities for all those who drive, work and think outside of the box. </i></strong>     
+        </h2>
+         
+        </div><br>
+    </div>
+      <div id="navtbut" class="disappear">
+      <a href = "#top">
+        <button id = "buttontop">
+        <i class = "material-icons">arrow_upward</i>  
+        </button>
+      </a>
+            </div>
+    <footer>
+        <div class="footer">
+            <div class="column1">
+                <div class="footerHeading">
+                    <div class="footerHeading1">
+                        <h1>TEAM AVITAR</h1>
+                        <div class="logo-img">
+                            <img src="./images/logo.png">
+                        </div>
+                    </div>
+                    <p>Imagination in motion </p>
+                </div>
+                <div class="contactLink">
+                    <div class="wrapper">
+                        <ul>
+                          <a href="" target="_blank"><li class="discord"><i class="fab fa-discord fa-2x" aria-hidden="true"></i></li></a>
+                          <a href="https://www.instagram.com/team_avitar/" target="_blank"><li class="instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li></a>
+                          <a href="https://www.linkedin.com/in/team-avitar-888551198/" target="_blank"><li class="linkedin"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></li></a>
+                          <a href="mailto:teamavitar@vitbhopal.ac.in"><li class="gmail" target="_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></li></a>
+                          <a href="https://www.youtube.com/channel/UCU83LwXc_8cOZ1k_LR7N6Kg" target="_blank"><li class="youtube"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></li></a>
+                          
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="column2">
+                <h2>Useful Links</h2>
+                <div class="footerLinks">
+                    <div class="g1">
+                        <a href="index.html">Home</a>
+                        <a href="team.html">Team</a>
+                        <a href="department.html">Departments</a>
+                    </div>
+                    <div class="g2">
+                      <a href="gallary.html">Gallery</a>
+                        <a href="achievements.html">Achievements</a>
+                        <a href="contact.html">Contact us</a>
+                    </div>
+                    <div class="g2">
+                      <h6 ><strong>Sponsers</strong></h6>
+                      <h6>VIT</h6>
+
+                      <h6>VIT</h6>
+                      <h6>VIT</h6>
+                     
+
+                      
+                  </div>
+                </div>
+
+            </div>
+
+        </div>
+        <br><H5 style="margin: 0px;">Made with 💝 by TEAM AVITAR</H5>
+        <p style="display: flex; justify-content: center; padding-bottom: 1%; font-size: 15px;">TEAM AVITAR 2022</p>
+    </footer>
+</body>
+<script src="preloader.js"></script>
+
+<script>
+
+  AOS.init({
+    duration: 1200,
+  })
+  // When the user scrolls the page, execute myFunction 
+  window.onscroll = function() {myFunction()};
+  document.getElementById("myBar").style.background="#EB384E";
+  function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+  }
+  </script>
+    
+    <script>
+      navtbut = document.getElementById("navtbut");
+
+var navToTop = function () {
+    var y = window.scrollY;
+    if (y >= 220) {
+        navtbut.className = "appear"
+    } 
+    else {
+        navtbut.className = "disappear"
+    }
+};
+
+window.addEventListener("scroll", navToTop);
+    </script>
+
+<!-- <script src="burger.js"></script> -->
+</html>
